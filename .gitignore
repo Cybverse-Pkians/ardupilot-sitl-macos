@@ -1,0 +1,32 @@
+# Python virtual environment and cache
+.venv/
+__pycache__/
+*.pyc
+
+# ArduPilot build directories
+ardupilot-sitl-macos/build/
+ardupilot-sitl-macos/.lock-waf*
+ardupilot-sitl-macos/modules/gtest/
+ardupilot-sitl-macos/modules/mavlink/
+ardupilot-sitl-macos/modules/uavcan/
+ardupilot-sitl-macos/modules/ChibiOS/
+ardupilot-sitl-macos/modules/gbenchmark/
+ardupilot-sitl-macos/modules/libcanard/
+ardupilot-sitl-macos/modules/micro-xrce-dds-client/
+ardupilot-sitl-macos/modules/DroneCAN/
+ardupilot-sitl-macos/modules/external/
+
+# Gazebo plugin build directories
+ardupilot-sitl-macos/ardupilot_gazebo/build-ninja/
+
+# Temporary flight test runs and logs
+ardupilot-sitl-macos/.iris-flight-test.*/
+/tmp/gz_*.log
+/tmp/sitl_*.log
+/tmp/gz_test.log
+/tmp/sitl_test.log
+*.log
+*.bin
+eeprom.bin
+logs/
+terrain/
